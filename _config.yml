@@ -29,12 +29,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  vijaynr
 linkedin_username: vijayasankarr
 twitter_username: vjaynr
-
+show_excerpts: true
 # Build settings
 theme: minima
 plugins:
   - jemoji
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
