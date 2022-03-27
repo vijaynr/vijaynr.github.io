@@ -3,16 +3,14 @@
 
     <div class="wrapper">
 
-        <a href="{{ " /feed.xml" | relative_url }}" style="margin-top: 5px;">
-            <h2 class="footer-heading">
-                <svg class="svg-icon orange">
-                    <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-                </svg>
-                Subscribe
-            </h2>
+        <a href="{{ "/feed.xml" | relative_url }}">
+            <svg class="svg-icon orange">
+                <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg>
+            <span>Subscribe via RSS Feed</span>
         </a>
 
-        <div class="footer-col-wrapper">
+        <div class="footer-col-wrapper" style="margin-top: 15px;">
             <div class="footer-col footer-col-1">
                 <ul class="contact-list">
                     <li class="p-name">
@@ -23,7 +21,7 @@
                         {%- endif -%}
                     </li>
                     {%- if site.email -%}
-                    <li><a class="u-email" href="mailto:{{ site.email }}">Send me an email</a></li>
+                    <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email | escape }}</a></li>
                     {%- endif -%}
                 </ul>
             </div>
