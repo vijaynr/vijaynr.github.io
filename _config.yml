@@ -21,11 +21,10 @@
 title: Vijayasankar Ravindran
 email: vj.co.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A personal blogging website that talks about various 
-  software engineering constructs, problems, tips, case studies etc.
+  Blogposts about various software engineering constructs, 
+  problems, tips, case studies and life
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: vjaynr
 github_username:  vijaynr
 linkedin_username: vijayasankarr
 
