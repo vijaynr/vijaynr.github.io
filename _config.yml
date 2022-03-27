@@ -1,3 +1,7 @@
 theme: jekyll-theme-minima
 title: Vijayasankar's homepage
 description: Blogs, Projects and Updates
+
+layout: about
+title: "About Me"
+permalink: /about
