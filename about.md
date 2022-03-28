@@ -3,6 +3,7 @@ layout: page
 title: About
 heading: About me
 permalink: /about/
+order: 4
 ---
 
 <img style="float: left; margin-right: 16px; border-radius: 50%; height: 176px" src="{{site.baseurl}}/assets/picture.png">

@@ -3,8 +3,8 @@ layout: page
 title: Posts
 heading: Posts
 permalink: /posts/
+order: 2
 ---
-
 
 <div class="home">
   {%- if site.posts.size > 0 -%}
@@ -16,11 +16,8 @@ permalink: /posts/
          <span style="font-size: 16px;">
             <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
         </span>
-
       </li>
       {%- endfor -%}
     </ul>
-
   {%- endif -%}
-
 </div>

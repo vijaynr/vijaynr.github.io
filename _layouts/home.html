@@ -22,7 +22,9 @@ layout: default
           </a>
         </h3>
         {%- if site.show_excerpts -%}
+        <!-- <span class="post-meta"> -->
           {{ post.content | truncatewords: 60 }}
+          <!-- </span> -->
         {%- endif -%}
       </li>
       {%- endfor -%}

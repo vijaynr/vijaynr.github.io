@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Vijayasankar's Blog
+title: Vijayasankar Ravindran
 author: Viayasankar Ravindran
 email: vj.co.dev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -30,6 +30,10 @@ github_username:  vijaynr
 linkedin_username: vijayasankarr
 twitter_username: vjaynr
 show_excerpts: true
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:title
 # Build settings
 theme: minima
 plugins:

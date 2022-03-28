@@ -3,6 +3,7 @@ layout: page
 title: Categories
 heading: Categories
 permalink: /categories/
+order: 3
 ---
 
 
