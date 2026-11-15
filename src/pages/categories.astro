@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostList from '../components/PostList.astro';
+import { getPublishedPosts, categoryId, postTopics } from '../lib/blog';
+const posts = await getPublishedPosts();
+const categories = [...new Set(posts.flatMap(postTopics))].sort();
+---
+<BaseLayout surface="blog" title="Tags — Vijayasankar Ravindran" description="Browse blog posts by tag.">
+  <div class="shell writing-page categories-page">
+    <header class="writing-header">
+      <h1>Tags</h1>
+      <div class="writing-links"><a href="/blog/">All posts</a></div>
+    </header>
+    <nav class="category-index" aria-label="Blog tags">
+      {categories.map(category => <a href={`#${categoryId(category)}`}>{category}</a>)}
+    </nav>
+    {categories.map(category => (
+      <section class="category-section" id={categoryId(category)} aria-label={`${category} posts`}>
+        <span id={category} aria-hidden="true"></span>
+        <h2>{category}</h2>
+        <PostList compact posts={posts.filter(post => postTopics(post).includes(category))} />
+      </section>
+    ))}
+  </div>
+</BaseLayout>

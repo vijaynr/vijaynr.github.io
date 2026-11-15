@@ -1,0 +1,68 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+import '../styles/blog.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  article?: boolean;
+  publishedTime?: string;
+  modifiedTime?: string;
+  surface?: 'portfolio' | 'blog';
+}
+const {
+  title,
+  description = 'Portfolio and writing of Vijayasankar Ravindran, Lead Software Engineer building enterprise applications with Java, Spring, Angular and AI-assisted development workflows.',
+  article = false,
+  publishedTime,
+  modifiedTime,
+  surface = 'portfolio',
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en" data-theme="dark" data-surface={surface}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#151716" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="Vijayasankar Ravindran — Blog" href="/feed.xml" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content={article ? 'article' : 'website'} />
+    <meta property="og:site_name" content="Vijayasankar Ravindran" />
+    <meta name="twitter:card" content="summary" />
+    {publishedTime && <meta property="article:published_time" content={publishedTime} />}
+    {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@700&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <script is:inline>
+      document.documentElement.classList.add('js');
+      let theme;
+      try { theme = localStorage.getItem('theme'); } catch {}
+      document.documentElement.dataset.theme = theme === 'light' || theme === 'dark'
+        ? theme : matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+      document.querySelector('meta[name="theme-color"]').content =
+        getComputedStyle(document.documentElement).getPropertyValue('--bg').trim();
+    </script>
+    <slot name="head" />
+  </head>
+  <body id="top" data-surface={surface}>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <Header />
+    <main id="main-content" tabindex="-1"><slot /></main>
+    <Footer />
+    <script>
+      import '../scripts/site';
+    </script>
+  </body>
+</html>

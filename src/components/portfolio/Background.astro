@@ -1,0 +1,26 @@
+---
+import { skills } from '../../data/skills';
+---
+    <section class="section" id="background" aria-labelledby="toolbox-title">
+      <div class="shell">
+        <div class="section-heading">
+          <h2 id="toolbox-title">Background</h2>
+          <p class="section-description">Technical skills and education.</p>
+        </div>
+        <div class="toolbox">
+          <div class="skill-cloud" aria-label="Skills and technologies">
+            {skills.map(skill => <span class="skill">{skill}</span>)}
+          </div>
+          <article class="education-card">
+            <div class="period">2013 — 2017 · Coimbatore</div>
+            <h3>B.E. Electronics and Communication</h3>
+            <h4>PSG College of Technology</h4>
+            <div class="education-recognition">
+              <p>Micro Focus Hack Week — Special Mention (2021).</p>
+              <p>Focus Toastmasters — Most Improved Speaker (2019).</p>
+              <p>Product Owner Fundamentals — IIBA Endorsed (Udemy, Feb 2025).</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>

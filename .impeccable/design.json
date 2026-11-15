@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-15T05:55:07.663325+00:00",
+  "title": "Design System: Vijayasankar Ravindran Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "dark-bg": {
+        "role": "neutral",
+        "displayName": "Dark Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0037 164.66)",
+          "oklch(26% 0.0037 164.66)",
+          "oklch(38% 0.0037 164.66)",
+          "oklch(49% 0.0037 164.66)",
+          "oklch(61% 0.0037 164.66)",
+          "oklch(72% 0.0037 164.66)",
+          "oklch(84% 0.0037 164.66)",
+          "oklch(95% 0.0037 164.66)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Dark Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0058 156.76)",
+          "oklch(26% 0.0058 156.76)",
+          "oklch(38% 0.0058 156.76)",
+          "oklch(49% 0.0058 156.76)",
+          "oklch(61% 0.0058 156.76)",
+          "oklch(72% 0.0058 156.76)",
+          "oklch(84% 0.0058 156.76)",
+          "oklch(95% 0.0058 156.76)"
+        ]
+      },
+      "dark-surface-raised": {
+        "role": "neutral",
+        "displayName": "Dark Surface Raised",
+        "tonalRamp": [
+          "oklch(15% 0.0079 153.39)",
+          "oklch(26% 0.0079 153.39)",
+          "oklch(38% 0.0079 153.39)",
+          "oklch(49% 0.0079 153.39)",
+          "oklch(61% 0.0079 153.39)",
+          "oklch(72% 0.0079 153.39)",
+          "oklch(84% 0.0079 153.39)",
+          "oklch(95% 0.0079 153.39)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0054 117.93)",
+          "oklch(26% 0.0054 117.93)",
+          "oklch(38% 0.0054 117.93)",
+          "oklch(49% 0.0054 117.93)",
+          "oklch(61% 0.0054 117.93)",
+          "oklch(72% 0.0054 117.93)",
+          "oklch(84% 0.0054 117.93)",
+          "oklch(95% 0.0054 117.93)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0119 141.25)",
+          "oklch(26% 0.0119 141.25)",
+          "oklch(38% 0.0119 141.25)",
+          "oklch(49% 0.0119 141.25)",
+          "oklch(61% 0.0119 141.25)",
+          "oklch(72% 0.0119 141.25)",
+          "oklch(84% 0.0119 141.25)",
+          "oklch(95% 0.0119 141.25)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark Line",
+        "tonalRamp": [
+          "oklch(15% 0.0116 150.38)",
+          "oklch(26% 0.0116 150.38)",
+          "oklch(38% 0.0116 150.38)",
+          "oklch(49% 0.0116 150.38)",
+          "oklch(61% 0.0116 150.38)",
+          "oklch(72% 0.0116 150.38)",
+          "oklch(84% 0.0116 150.38)",
+          "oklch(95% 0.0116 150.38)"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Dark Accent",
+        "tonalRamp": [
+          "oklch(15% 0.0589 255.69)",
+          "oklch(26% 0.0589 255.69)",
+          "oklch(38% 0.0589 255.69)",
+          "oklch(49% 0.0589 255.69)",
+          "oklch(61% 0.0589 255.69)",
+          "oklch(72% 0.0589 255.69)",
+          "oklch(84% 0.0589 255.69)",
+          "oklch(95% 0.0589 255.69)"
+        ]
+      },
+      "light-bg": {
+        "role": "neutral",
+        "displayName": "Light Bg",
+        "tonalRamp": [
+          "oklch(15% 0.0026 106.45)",
+          "oklch(26% 0.0026 106.45)",
+          "oklch(38% 0.0026 106.45)",
+          "oklch(49% 0.0026 106.45)",
+          "oklch(61% 0.0026 106.45)",
+          "oklch(72% 0.0026 106.45)",
+          "oklch(84% 0.0026 106.45)",
+          "oklch(95% 0.0026 106.45)"
+        ]
+      },
+      "light-surface": {
+        "role": "neutral",
+        "displayName": "Light Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0045 134.85)",
+          "oklch(26% 0.0045 134.85)",
+          "oklch(38% 0.0045 134.85)",
+          "oklch(49% 0.0045 134.85)",
+          "oklch(61% 0.0045 134.85)",
+          "oklch(72% 0.0045 134.85)",
+          "oklch(84% 0.0045 134.85)",
+          "oklch(95% 0.0045 134.85)"
+        ]
+      },
+      "light-surface-raised": {
+        "role": "neutral",
+        "displayName": "Light Surface Raised",
+        "tonalRamp": [
+          "oklch(15% 0.0079 139.44)",
+          "oklch(26% 0.0079 139.44)",
+          "oklch(38% 0.0079 139.44)",
+          "oklch(49% 0.0079 139.44)",
+          "oklch(61% 0.0079 139.44)",
+          "oklch(72% 0.0079 139.44)",
+          "oklch(84% 0.0079 139.44)",
+          "oklch(95% 0.0079 139.44)"
+        ]
+      },
+      "light-ink": {
+        "role": "neutral",
+        "displayName": "Light Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0134 154.39)",
+          "oklch(26% 0.0134 154.39)",
+          "oklch(38% 0.0134 154.39)",
+          "oklch(49% 0.0134 154.39)",
+          "oklch(61% 0.0134 154.39)",
+          "oklch(72% 0.0134 154.39)",
+          "oklch(84% 0.0134 154.39)",
+          "oklch(95% 0.0134 154.39)"
+        ]
+      },
+      "light-muted": {
+        "role": "neutral",
+        "displayName": "Light Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0185 154.07)",
+          "oklch(26% 0.0185 154.07)",
+          "oklch(38% 0.0185 154.07)",
+          "oklch(49% 0.0185 154.07)",
+          "oklch(61% 0.0185 154.07)",
+          "oklch(72% 0.0185 154.07)",
+          "oklch(84% 0.0185 154.07)",
+          "oklch(95% 0.0185 154.07)"
+        ]
+      },
+      "light-line": {
+        "role": "neutral",
+        "displayName": "Light Line",
+        "tonalRamp": [
+          "oklch(15% 0.0121 145.47)",
+          "oklch(26% 0.0121 145.47)",
+          "oklch(38% 0.0121 145.47)",
+          "oklch(49% 0.0121 145.47)",
+          "oklch(61% 0.0121 145.47)",
+          "oklch(72% 0.0121 145.47)",
+          "oklch(84% 0.0121 145.47)",
+          "oklch(95% 0.0121 145.47)"
+        ]
+      },
+      "light-accent": {
+        "role": "primary",
+        "displayName": "Light Accent",
+        "tonalRamp": [
+          "oklch(15% 0.0963 255.18)",
+          "oklch(26% 0.0963 255.18)",
+          "oklch(38% 0.0963 255.18)",
+          "oklch(49% 0.0963 255.18)",
+          "oklch(61% 0.0963 255.18)",
+          "oklch(72% 0.0963 255.18)",
+          "oklch(84% 0.0963 255.18)",
+          "oklch(95% 0.0963 255.18)"
+        ]
+      },
+      "light-accent-ink": {
+        "role": "neutral",
+        "displayName": "Light Accent Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26% 0.0000 89.88)",
+          "oklch(38% 0.0000 89.88)",
+          "oklch(49% 0.0000 89.88)",
+          "oklch(61% 0.0000 89.88)",
+          "oklch(72% 0.0000 89.88)",
+          "oklch(84% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Portfolio name."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Portfolio section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Portfolio role and project names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Portfolio paragraphs."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Portfolio labels and controls."
+      },
+      "brand": {
+        "displayName": "Brand",
+        "purpose": "Compact VNR mark."
+      },
+      "blog-heading": {
+        "displayName": "Blog Heading",
+        "purpose": "Compact writing-page heading."
+      },
+      "blog-article-title": {
+        "displayName": "Blog Article Title",
+        "purpose": "Single-column article title."
+      },
+      "blog-post-title": {
+        "displayName": "Blog Post Title",
+        "purpose": "Archive title, smaller on mobile and tag pages."
+      },
+      "blog-body": {
+        "displayName": "Blog Body",
+        "purpose": "Uniform DM Sans prose, 1rem on mobile."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "navigation-state",
+        "value": ".2s ease",
+        "purpose": "Shared navigation and brand color feedback."
+      },
+      {
+        "name": "portrait-gradient",
+        "value": "9s ease-in-out infinite alternate",
+        "purpose": "Portfolio portrait only; paused when hidden and disabled for reduced motion."
+      },
+      {
+        "name": "notes-spark",
+        "value": "240ms cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Blog heading SVG rotates from 12deg to 57deg on hover only; reduced motion keeps 12deg."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow-columns",
+        "value": "800px"
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "700px"
+      },
+      {
+        "name": "stacked-content",
+        "value": "580px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "description": "Portfolio action with factual label.",
+      "html": "<div class=\"ds-sample\"><a class=\"ds-action\" href=\"#projects\">View projects</a></div>",
+      "css": ".ds-action {display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:.7rem 1rem;border:1px solid var(--line);border-radius:6px;font:500 .95rem/1.6 \"DM Sans\",sans-serif;text-decoration:none;background:var(--ink);color:var(--bg);border-color:var(--ink);} .ds-action:hover {background:var(--muted);border-color:var(--muted);} .ds-sample a:focus-visible, .ds-sample button:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "description": "Portfolio action with factual label.",
+      "html": "<div class=\"ds-sample\"><a class=\"ds-action\" href=\"#projects\">Contact</a></div>",
+      "css": ".ds-action {display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:.7rem 1rem;border:1px solid var(--line);border-radius:6px;font:500 .95rem/1.6 \"DM Sans\",sans-serif;text-decoration:none;color:var(--ink);background:transparent;} .ds-action:hover {border-color:var(--ink);} .ds-sample a:focus-visible, .ds-sample button:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Shared navigation uses the same neutral theme on portfolio and writing pages.",
+      "html": "<div class=\"ds-sample\"><nav class=\"ds-nav\" aria-label=\"Sample\"><a href=\"#home\">Home</a><a class=\"ds-active\" href=\"#blog\" aria-current=\"page\">Blog</a></nav></div>",
+      "css": ".ds-nav {display:flex;gap:.35rem;} .ds-nav a {display:inline-flex;align-items:center;min-height:44px;padding:.7rem 1rem;border-radius:8px;color:var(--muted);font:500 .95rem/1.4 \"DM Sans\",sans-serif;text-decoration:none;transition:background-color .2s ease,color .2s ease;} .ds-nav a:hover {background:var(--surface);color:var(--ink);} .ds-nav .ds-active {background:var(--ink);color:var(--bg);} .ds-sample a:focus-visible, .ds-sample button:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }",
+      "refersTo": "navigation"
+    },
+    {
+      "name": "Skill label",
+      "kind": "chip",
+      "description": "Static portfolio skill label.",
+      "html": "<div class=\"ds-sample\"><span class=\"ds-skill\">Java</span></div>",
+      "css": ".ds-skill {display:inline-block;padding:.4rem .7rem;border:1px solid var(--line);border-radius:5px;color:var(--ink);font:.9rem/1.5 \"DM Sans\",sans-serif;} .ds-sample a:focus-visible, .ds-sample button:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }",
+      "refersTo": "chip"
+    },
+    {
+      "name": "Education container",
+      "kind": "card",
+      "description": "Quiet outlined portfolio container.",
+      "html": "<div class=\"ds-sample\"><section class=\"ds-education\"><h3>Education</h3><p>Qualifications and recognition</p></section></div>",
+      "css": ".ds-education {padding:1.5rem;border:1px solid var(--line);border-radius:8px;color:var(--ink);font-family:\"DM Sans\",sans-serif;} .ds-education h3 {margin:.8rem 0 .5rem;font-size:1.15rem;font-weight:600;line-height:1.5;} .ds-education p {margin:0;color:var(--muted);font-size:.9rem;line-height:1.7;} .ds-sample a:focus-visible, .ds-sample button:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }",
+      "refersTo": "education-card"
+    },
+    {
+      "name": "Homepage blog preview",
+      "kind": "custom",
+      "description": "Compact DM Sans preview row between Background and Contact; up to three newest published posts.",
+      "html": "<section class=\"ds-preview\"><div class=\"ds-preview-heading\"><h2>Blog</h2><a class=\"ds-more\" href=\"/blog/\">View more <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a></div><h3><a href=\"#genesis\">Genesis</a></h3></section>",
+      "css": ".ds-preview {color:var(--ink);font-family:\"DM Sans\",sans-serif;} .ds-preview-heading {display:flex;align-items:start;justify-content:space-between;gap:1rem 2rem;margin-bottom:2.25rem;} .ds-preview h2 {margin:0;font-size:clamp(1.6rem,2.5vw,2rem);font-weight:600;line-height:1.3;letter-spacing:-.02em;} .ds-preview h3 {margin:0;font-size:1.25rem;font-weight:600;line-height:1.4;} .ds-preview h3 a {color:inherit;text-decoration:none;} .ds-preview h3 a:hover {text-decoration:underline;text-underline-offset:.2em;} .ds-more {display:inline-flex;align-items:center;justify-content:center;gap:.75rem;min-height:46px;padding:.7rem 1rem;border:1px solid var(--line);border-radius:6px;color:var(--ink);font-size:.95rem;font-weight:500;text-decoration:none;} .ds-more:hover {border-color:var(--ink);} .ds-preview a:focus-visible {outline:2px solid var(--accent);outline-offset:4px;} @media(max-width:580px){.ds-preview-heading{flex-direction:column;gap:1.25rem;}}"
+    },
+    {
+      "name": "Notes header",
+      "kind": "custom",
+      "description": "Modest factual title, geometric SVG accent, real count, and links.",
+      "html": "<header class=\"ds-note\"><div class=\"ds-notes-title\"><h1>Blog</h1><svg class=\"ds-spark\" viewBox=\"0 0 40 40\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" aria-hidden=\"true\"><path d=\"M20 5v30M5 20h30M9.4 9.4l21.2 21.2M9.4 30.6 30.6 9.4\"/></svg></div><p>Writing about software engineering, learning, and life.</p><div class=\"ds-tools\"><span class=\"ds-count\">1 post</span><a href=\"/categories/\">Browse tags</a><a href=\"/feed.xml\">Subscribe via RSS</a></div></header>",
+      "css": ".ds-note {font-family:\"DM Sans\",sans-serif;color:var(--ink);} .ds-notes-title {display:flex;align-items:center;gap:.85rem;width:fit-content;} .ds-notes-title h1 {margin:0;font-size:2.75rem;font-weight:600;line-height:1.15;letter-spacing:-.035em;} .ds-spark {width:30px;height:30px;color:var(--accent);transform:rotate(12deg);transition:transform 240ms cubic-bezier(.16,1,.3,1);} .ds-notes-title:hover .ds-spark {transform:rotate(57deg);} .ds-note p {max-width:55ch;margin:1rem 0 0;color:var(--muted);font-size:1rem;line-height:1.8;} .ds-tools {display:flex;align-items:center;flex-wrap:wrap;gap:.75rem 1.5rem;margin-top:1.5rem;} .ds-tools a {display:inline-flex;align-items:center;min-height:44px;color:inherit;font-size:.9rem;text-underline-offset:.25em;text-decoration-color:var(--muted);} .ds-tools a:hover {text-decoration-color:var(--ink);} .ds-count {display:inline-flex;align-items:center;min-height:30px;padding:.2rem .7rem;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--muted);font-size:.8rem;} @media(max-width:580px){.ds-notes-title h1{font-size:2.35rem;}.ds-spark{width:26px;height:26px;}} @media(prefers-reduced-motion:reduce){.ds-spark{transition:none;}.ds-notes-title:hover .ds-spark{transform:rotate(12deg);}} .ds-note a:focus-visible {outline:2px solid var(--accent);outline-offset:4px;}"
+    },
+    {
+      "name": "Writing archive entry",
+      "kind": "custom",
+      "description": "Stacked date and estimate, compact title, description, and article action.",
+      "html": "<article class=\"ds-note ds-entry\"><div class=\"ds-dateline\"><time>27 March 2022</time><span>1 min read</span></div><h2><a href=\"/blog/genesis/\">Genesis</a></h2><a class=\"ds-read\" href=\"/blog/genesis/\">Read article <svg width=\"30\" height=\"30\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14m-6-6 6 6-6 6\"/></svg></a></article>",
+      "css": ".ds-entry {padding:1.75rem 0;border-top:1px solid var(--line);color:var(--ink);font-family:\"DM Sans\",sans-serif;} .ds-dateline {display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin-bottom:.8rem;color:var(--muted);font-size:.85rem;font-variant-numeric:tabular-nums;} .ds-entry h2 {margin:0;font-size:1.75rem;font-weight:600;line-height:1.3;letter-spacing:-.02em;} .ds-entry h2 a {color:inherit;text-decoration:underline;text-decoration-color:transparent;text-decoration-thickness:2px;text-underline-offset:.2em;} .ds-entry h2 a:hover {text-decoration-color:var(--accent);} .ds-read {display:inline-flex;align-items:center;gap:.65rem;min-height:44px;margin-top:1.25rem;color:inherit;font-size:.85rem;font-weight:500;text-decoration:none;} .ds-read svg {padding:6px;border:1px solid var(--line);border-radius:50%;} .ds-read:hover {text-decoration:underline;text-underline-offset:.25em;} .ds-read:hover svg {background:var(--ink);border-color:var(--ink);color:var(--bg);} @media(max-width:580px){.ds-entry h2{font-size:1.4rem;}} .ds-note a:focus-visible {outline:2px solid var(--accent);outline-offset:4px;}"
+    },
+    {
+      "name": "Writing tag",
+      "kind": "chip",
+      "description": "Small pill link to the preserved tags URL.",
+      "html": "<div class=\"ds-note\"><a class=\"ds-tag\" href=\"/categories/#personal\">Personal</a></div>",
+      "css": ".ds-tag {display:inline-flex;align-items:center;min-height:36px;padding:.35rem .75rem;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--muted);font:.8rem/1.4 \"DM Sans\",sans-serif;text-decoration:none;} .ds-tag:hover {border-color:var(--accent);color:var(--ink);} .ds-note a:focus-visible {outline:2px solid var(--accent);outline-offset:4px;}"
+    },
+    {
+      "name": "Article author",
+      "kind": "custom",
+      "description": "Real owner and derived initials with inline date and reading estimate.",
+      "html": "<div class=\"ds-note ds-author\"><span class=\"ds-initials\" aria-hidden=\"true\">VR</span><div><a href=\"/#background\">Vijayasankar Ravindran</a><p>27 March 2022 \u00b7 1 min read</p></div></div>",
+      "css": ".ds-author {display:flex;align-items:center;gap:.75rem;margin:1.5rem 0 1.25rem;color:var(--ink);font-family:\"DM Sans\",sans-serif;} .ds-initials {display:grid;place-items:center;flex:0 0 38px;height:38px;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--accent);font-size:.75rem;font-weight:600;} .ds-author a {color:inherit;font-size:.9rem;font-weight:500;text-decoration:none;overflow-wrap:anywhere;} .ds-author a:hover {text-decoration:underline;text-underline-offset:.25em;} .ds-author p {margin:.2rem 0 0;color:var(--muted);font-size:.8rem;font-variant-numeric:tabular-nums;} .ds-note a:focus-visible {outline:2px solid var(--accent);outline-offset:4px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Subtle professional portfolio",
+    "overview": "Present the person's name, role, experience, projects, skills, and contact information with calm typography and factual language. This documents the implemented Astro portfolio and the user's explicit portfolio direction: \"remove all fancy taglines\" and \"build a subtle portfolio website.\"\n\nThe blog presents compact personal notes using the same DM Sans and neutral themes as the portfolio. Its modest headings, rounded tag links, small blue geometric asterisk, and inline author initials supply the user-requested minimal playfulness. Homepage previews retain the portfolio section rhythm.",
+    "keyCharacteristics": [
+      "Factual copy and clear hierarchy.",
+      "Shared neutral light and dark themes with restrained blue accents.",
+      "Flat sections, thin dividers, and modest rounded controls.",
+      "A large transparent portrait with a vivid animated coral, pink, violet, and teal gradient; this remains the portfolio's only playful area; the blog allows small, restrained accents."
+    ],
+    "rules": [
+      {
+        "name": "The Factual Copy Rule",
+        "body": "Use factual names, roles, section headings, descriptions, and action labels only. Do not add taglines, slogans, metaphors, motivational claims, or clever promotional headings. The hero heading is the person's name.",
+        "section": "overview"
+      },
+      {
+        "name": "The Theme Pairing Rule",
+        "body": "Resolve colors through the existing theme variables. Keep text, controls, borders, and interaction states legible in both themes.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do use the person's name, actual role, factual section headings, and explicit action labels.",
+      "Do preserve each surface's light and dark theme pairings and visible keyboard focus.",
+      "Do use DM Sans throughout writing pages and homepage previews, with uniform article prose and modest headings.",
+      "Do keep blog playfulness to the small geometric accent, rounded tag links, and factual initials.",
+      "Do use the same neutral themes and shared chrome throughout the site.",
+      "Do keep the centered shell, responsive stacking, readable line lengths, and simple portrait treatment."
+    ],
+    "donts": [
+      "Don't add fancy taglines, slogans, metaphors, promotional headings, or invented claims.",
+      "Don't reintroduce marquees, stickers, oversized monograms, grain, rotated panels, or decorative gradients outside the approved portrait background.",
+      "Don't replace factual project and experience content with marketing copy."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostList from '../../components/PostList.astro';
+import { getPublishedPosts } from '../../lib/blog';
+const posts = await getPublishedPosts();
+---
+<BaseLayout surface="blog" title="Blog — Vijayasankar Ravindran" description="Writing about software engineering, learning, and life by Vijayasankar Ravindran.">
+  <div class="shell writing-page">
+    <header class="writing-header notes-header">
+      <div class="notes-title">
+        <h1>Blog</h1>
+        <svg class="notes-spark" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M20 5v30M5 20h30M9.4 9.4l21.2 21.2M9.4 30.6 30.6 9.4" /></svg>
+      </div>
+      <p>Writing about software engineering, learning, and life.</p>
+      <div class="notes-tools">
+        <span class="post-count">{posts.length} {posts.length === 1 ? 'post' : 'posts'}</span>
+        <div class="writing-links"><a href="/categories/">Browse tags</a><a href="/feed.xml">Subscribe via RSS</a></div>
+      </div>
+    </header>
+    {posts.length ? <PostList posts={posts} /> : <p>No posts published yet.</p>}
+  </div>
+</BaseLayout>

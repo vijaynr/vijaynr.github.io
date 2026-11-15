@@ -1,0 +1,20 @@
+---
+import { experience } from '../../data/experience';
+---
+<section class="section" id="experience" aria-labelledby="experience-title">
+  <div class="shell">
+    <div class="section-heading"><h2 id="experience-title">Experience</h2></div>
+    <div class="experience-list">
+      {experience.map(item => (
+        <article class="experience-item">
+          <div class="period">{item.period}<br />{item.location}</div>
+          <div class="role">
+            <h3>{item.title}</h3>
+            <div class="company">{item.company}</div>
+            <p>{item.description}</p>
+          </div>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

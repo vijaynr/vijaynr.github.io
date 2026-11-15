@@ -1,0 +1,20 @@
+---
+import PostList from '../PostList.astro';
+import { getPublishedPosts } from '../../lib/blog';
+const posts = (await getPublishedPosts()).slice(0, 3);
+---
+<section class="section blog-preview" id="blog" aria-labelledby="blog-title">
+  <div class="shell">
+    <div class="section-heading blog-preview-heading">
+      <div>
+        <h2 id="blog-title">Blog</h2>
+        <p class="section-description">Writing about software engineering, learning, and life.</p>
+      </div>
+      <a class="view-more" href="/blog/" aria-label="View more blog posts">
+        View more
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" /></svg>
+      </a>
+    </div>
+    {posts.length ? <PostList compact posts={posts} /> : <p>No posts published yet.</p>}
+  </div>
+</section>
